@@ -16,6 +16,8 @@ const Modal: React.FC<ModalProps> = ({
     title,
     description,
     children
+
+    
   }) => {
   return ( 
     <Dialog.Root open={isOpen} defaultOpen={isOpen} onOpenChange={onChange}>
